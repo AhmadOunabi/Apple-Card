@@ -11,21 +11,56 @@ body{
     font-family: apple;
 }
 
+body div{
+    display: flex;
+}
+
+body div .card2{
+    display: inline-block;
+    margin: 50px;
+    margin-left: 15px;
+    background-image: url("./appleWatch.jpg");
+    background-repeat: no-repeat;
+    background-size:400px 500px;
+    width: 400px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+body div .card2 .one{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+body div .card2 .two{
+    color: #fff;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+body div .card2 .three{
+    color: #fff;
+    margin-top: 20px;
+}
+
 .card{
     display:inline-block;
     margin: 50px;
+    margin-right: 15px;
     background: url("./foto.jpg");
     background-repeat: no-repeat;
-    background-size:300px;
-    width: 300px;
-    height: 400px;
+    background-size:400px 500px;
+    width: 400px;
+    height: 500px;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 h6{
-    padding-left: 10px;
-    margin: 10px;
+    margin: 20px;
+    margin-top: 20px;
     font-size: 18px;
     color: #6e6e73;
 }
@@ -37,9 +72,10 @@ h1{
 }
 
 p{
-    padding: left 10px;;
+    padding: left 10px;
     margin: 19px;
-    margin-bottom: 17px;
+    margin-top: 35px;
     color: #1d1d1f;
     font-size: 15px;
 }
+
